@@ -138,7 +138,7 @@ const quizEnd = () => {
   // console.log(document.getElementsByClassName("container"));
   document.getElementsByClassName("container")[0].innerHTML = `
         <div class="col">
-            <h3 class="w-100"> Your Total scored ${correct} / ${total} </h3>
+            <h3 class="w-100"> Your score ${correct} / ${total} </h3>
         </div>
     `
 }
